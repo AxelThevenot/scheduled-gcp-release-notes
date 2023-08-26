@@ -1,0 +1,267 @@
+webhook_url: https://chat.googleapis.com/v1/spaces/<your-space-id>/messages?<your-webhook-key-and-token>
+release_note_types:
+  - FEATURE
+  - NON_BREAKING_CHANGE
+  - FIX
+  - SERVICE_ANNOUNCEMENT
+  - ISSUE
+  - DEPRECATION
+  - SECURITY_BULLETIN
+  # - LIBRARIES
+  - BREAKING_CHANGE
+product_names:
+  - AI Platform Data Labeling Service
+  - AI Platform Optimizer
+  - AI Platform Pipelines
+  - AI Platform Prediction
+  - AI Platform Training
+  - API Gateway
+  - API Keys API
+  - Access Approval
+  - Access Context Manager
+  - Address Validation API
+  - Aerial View API
+  - Agent Assist
+  - AlloyDB
+  - Anthos
+  - Anthos Attached Clusters
+  - Anthos Config Management
+  - Anthos Service Mesh
+  - Anthos VM Runtime
+  - Anthos clusters on AWS
+  - Anthos clusters on AWS (previous generation)
+  - Anthos clusters on Azure
+  - Anthos clusters on VMware
+  - Anthos clusters on bare metal
+  - Anti Money Laundering AI
+  - Apigee API hub
+  - Apigee Adapter for Envoy
+  - Apigee Analytics
+  - Apigee Connectors
+  - Apigee Integrated Portal
+  - Apigee Integration
+  - Apigee Monetization
+  - Apigee UI
+  - Apigee X
+  - Apigee hybrid
+  - App Engine Admin API
+  - App Engine Standard
+  - App Engine flexible environment .NET
+  - App Engine flexible environment Go
+  - App Engine flexible environment Java
+  - App Engine flexible environment Node.js
+  - App Engine flexible environment PHP
+  - App Engine flexible environment Python
+  - App Engine flexible environment Ruby
+  - App Engine flexible environment custom runtimes
+  - App Engine standard environment Go
+  - App Engine standard environment Java
+  - App Engine standard environment Node.js
+  - App Engine standard environment PHP
+  - App Engine standard environment Python
+  - App Engine standard environment Ruby
+  - Application Integration
+  - Apps Script
+  - Artifact Registry
+  - Assured Open Source Software
+  - Assured Workloads
+  - AutoML Natural Language
+  - AutoML Tables
+  - AutoML Translation
+  - AutoML Video Intelligence Classification
+  - AutoML Video Intelligence Object Tracking
+  - AutoML Vision Image Classification (ICN)
+  - AutoML Vision Object Detection
+  - Backup and DR
+  - Backup for GKE
+  - Bare Metal Solution
+  - Batch
+  - BeyondCorp Enterprise
+  - BigQuery
+  - Binary Authorization
+  - Blockchain Analytics
+  - Blockchain Node Engine
+  - Buildpacks
+  - Calendar API
+  - Carbon Footprint
+  - Certificate Authority Service
+  - Certificate Manager
+  - Channel Services
+  - Chat API
+  - Chronicle
+  - Chronicle SOAR
+  - Cloud Asset Inventory
+  - Cloud Bigtable
+  - Cloud Billing
+  - Cloud Build
+  - Cloud CDN
+  - Cloud Composer
+  - Cloud Console
+  - Cloud DNS
+  - Cloud Data Fusion
+  - Cloud Data Loss Prevention
+  - Cloud Database Migration Service
+  - Cloud Debugger
+  - Cloud Deployment Manager
+  - Cloud Domains
+  - Cloud Endpoints
+  - Cloud Firewall
+  - Cloud Functions
+  - Cloud Healthcare API
+  - Cloud IDS
+  - Cloud Identity
+  - Cloud Interconnect
+  - Cloud Key Management Service
+  - Cloud Life Sciences
+  - Cloud Load Balancing
+  - Cloud Logging
+  - Cloud Monitoring
+  - Cloud NAT
+  - Cloud Natural Language API
+  - Cloud Optimization AI
+  - Cloud Profiler
+  - Cloud Router
+  - Cloud Run
+  - Cloud Run for Anthos
+  - Cloud SQL for MySQL
+  - Cloud SQL for PostgreSQL
+  - Cloud SQL for SQL Server
+  - Cloud Scheduler
+  - Cloud Search
+  - Cloud Shell
+  - Cloud Source Repositories
+  - Cloud Spanner
+  - Cloud Storage
+  - Cloud TPU
+  - Cloud Talent Solution Job Search
+  - Cloud Tasks
+  - Cloud Trace
+  - Cloud Translation
+  - Cloud VPN
+  - Cloud Vision
+  - Cloud Vision API Product Search
+  - Cloud Workstations
+  - Compute Engine
+  - Confidential VM
+  - Config Connector
+  - Config Controller
+  - Contact Center AI Insights
+  - Contact Center AI Platform
+  - Container Optimized OS
+  - Container Registry
+  - Data Catalog
+  - Dataflow
+  - Dataform
+  - Dataplex
+  - Dataproc
+  - Dataproc Metastore
+  - Datasets API
+  - Datastore
+  - Datastream
+  - Deep Learning Containers
+  - Deep Learning VM Images
+  - Dialogflow
+  - Discovery Engine API
+  - Docs API
+  - Document AI
+  - Document AI Warehouse
+  - Drive API
+  - Endpoint Verification
+  - Enterprise Knowledge Graph
+  - Error Reporting
+  - Eventarc
+  - Filestore
+  - Firestore
+  - Forms API
+  - Generative AI App Builder
+  - Gmail API
+  - Google Cloud Armor
+  - Google Cloud Deploy
+  - Google Cloud Marketplace
+  - Google Cloud Marketplace Partners
+  - Google Cloud VMware Engine
+  - Google Distributed Cloud Edge
+  - Google Kubernetes Engine
+  - Google Meet
+  - Google Workspace Add-ons API
+  - Google Workspace Admin SDK
+  - Google Workspace Marketplace API
+  - Identity Platform
+  - Identity and Access Management
+  - Identity-Aware Proxy
+  - Infrastructure Manager
+  - Integration Connectors
+  - IoT Core
+  - Issuer switch
+  - Keep API
+  - Key Access Justifications
+  - Kf
+  - Live Stream API
+  - Looker
+  - Looker Studio
+  - Managed Anthos Service Mesh
+  - Managed Service for Microsoft Active Directory
+  - Maps SDK for Android
+  - Maps SDK for iOS
+  - Media CDN
+  - Media Translation
+  - Memorystore for Memcached
+  - Memorystore for Redis
+  - Migrate for Compute Engine
+  - Migrate to Containers
+  - Migrate to Virtual Machines
+  - Migration Center
+  - Navigation SDK for Android
+  - Navigation SDK for iOS
+  - Network Connectivity Center
+  - Network Intelligence Center
+  - Network Service Tiers
+  - Places SDK for Android
+  - Places SDK for iOS
+  - Policy Intelligence
+  - Pub/Sub
+  - Pub/Sub Lite
+  - Recommendations AI
+  - Recommender
+  - Resource Manager
+  - Retail API
+  - Risk Manager
+  - Routes API
+  - SAP on Google Cloud
+  - Secret Manager
+  - Secure Web Proxy
+  - Security Command Center
+  - Service Catalog
+  - Service Directory
+  - Service Health
+  - Service Infrastructure
+  - Service Usage
+  - Slides API
+  - Software Delivery Shield
+  - Sovereign Controls by Partners
+  - Speech-to-Text
+  - Storage Transfer Service
+  - StratoZone
+  - T-Systems Sovereign Cloud
+  - Telecom Subscriber Insights
+  - Tensorflow Enterprise
+  - Terraform on Google Cloud
+  - Text-to-Speech
+  - Tools for Eclipse
+  - Tools for PowerShell
+  - Tools for Visual Studio
+  - Traffic Director
+  - Transcoder API
+  - Transfer Appliance
+  - Translation Hub
+  - VPC Service Controls
+  - Vault API
+  - Vertex AI
+  - Vertex AI Vision
+  - Vertex AI Workbench
+  - Video Intelligence API
+  - Video Stitcher API
+  - Virtual Private Cloud
+  - Web Risk
+  - Workflows
+  - reCAPTCHA Enterprise

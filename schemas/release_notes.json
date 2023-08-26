@@ -1,0 +1,37 @@
+[
+    {
+        "name": "description",
+        "mode": "NULLABLE",
+        "type": "STRING"
+    },
+    {
+        "name": "release_note_type",
+        "mode": "NULLABLE",
+        "type": "STRING"
+    },
+    {
+        "name": "published_at",
+        "mode": "NULLABLE",
+        "type": "DATE"
+    },
+    {
+        "name": "product_id",
+        "mode": "NULLABLE",
+        "type": "STRING"
+    },
+    {
+        "name": "product_name",
+        "mode": "NULLABLE",
+        "type": "STRING"
+    },
+    {
+        "name": "product_version_name",
+        "mode": "NULLABLE",
+        "type": "STRING"
+    },
+    {
+        "name": "_insertion_timestamp",
+        "mode": "NULLABLE",
+        "type": "TIMESTAMP"
+    }
+]

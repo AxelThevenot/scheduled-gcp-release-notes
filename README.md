@@ -61,13 +61,6 @@ To configure the application, follow these steps:
 
 Ensure you save the changes after editing the file.
 
-
-## Deploy the application on your project
-
-No scripts are provided in order to make everything transparent for you.
-
-You can just copy and paste the following script using `gcloud` CLI.
-
 ## Deploying the Application to Your Project
 
 We've kept everything transparent by not providing scripts, so you can better understand the process. Follow these steps to deploy the application using the `gcloud` CLI:

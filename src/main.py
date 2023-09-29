@@ -88,7 +88,9 @@ def _send_card_to_webhook(
         Returns:
             str: Formatted Google Chat Card for the release note.
         '''
-        release_note_type = release_note['release_note_type'].capitalize()
+        release_note_type = ' '.join(
+            (w.capitalize() for w in release_note['release_note_type'].split('_'))
+        )
         release_note_description = markdown(str(release_note['description']))
         return f'<b>{release_note_type}:<b/> {release_note_description}'
 

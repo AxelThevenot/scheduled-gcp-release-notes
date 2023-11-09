@@ -31,6 +31,7 @@ gcloud functions deploy google-cloud-release-notes-function \
 
 # Create the Cloud Scheduler trigger.
 gcloud scheduler jobs create http google-cloud-release-notes-schedule \
+    --project=${project_id} \
     --location=us-central1 \
     --schedule="${schedule}" \
     --uri=https://us-central1-${project_id}.cloudfunctions.net/google-cloud-release-notes-function \
@@ -39,4 +40,4 @@ gcloud scheduler jobs create http google-cloud-release-notes-schedule \
 
 
 # Force run the Cloud Scheduler to initialize the table.
-gcloud scheduler jobs run google-cloud-release-notes-schedule --location=us-central1
+gcloud scheduler jobs run google-cloud-release-notes-schedule --location=us-central1 --project=${project_id}

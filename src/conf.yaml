@@ -20,8 +20,10 @@ product_names:
   - Access Approval
   - Access Context Manager
   - Address Validation API
+  - Advisory Notifications
   - Aerial View API
   - Agent Assist
+  - Air Quality API
   - AlloyDB
   - Anthos
   - Anthos Attached Clusters
@@ -36,6 +38,7 @@ product_names:
   - Anti Money Laundering AI
   - Apigee API hub
   - Apigee Adapter for Envoy
+  - Apigee Advanced API Security
   - Apigee Analytics
   - Apigee Connectors
   - Apigee Integrated Portal
@@ -60,6 +63,7 @@ product_names:
   - App Engine standard environment PHP
   - App Engine standard environment Python
   - App Engine standard environment Ruby
+  - App Hub
   - Application Integration
   - Apps Script
   - Artifact Registry
@@ -83,6 +87,7 @@ product_names:
   - Blockchain Node Engine
   - Buildpacks
   - Calendar API
+  - Capacity Planner
   - Carbon Footprint
   - Certificate Authority Service
   - Certificate Manager
@@ -90,6 +95,7 @@ product_names:
   - Chat API
   - Chronicle
   - Chronicle SOAR
+  - Chronicle Security Operations
   - Cloud Asset Inventory
   - Cloud Bigtable
   - Cloud Billing
@@ -141,6 +147,7 @@ product_names:
   - Cloud Vision
   - Cloud Vision API Product Search
   - Cloud Workstations
+  - Colab Enterprise
   - Compute Engine
   - Confidential VM
   - Config Connector
@@ -166,6 +173,7 @@ product_names:
   - Document AI
   - Document AI Warehouse
   - Drive API
+  - Duet AI
   - Endpoint Verification
   - Enterprise Knowledge Graph
   - Error Reporting
@@ -173,8 +181,8 @@ product_names:
   - Filestore
   - Firestore
   - Forms API
-  - Generative AI App Builder
   - Gmail API
+  - Google Cloud Architecture Center
   - Google Cloud Armor
   - Google Cloud Deploy
   - Google Cloud Marketplace
@@ -185,13 +193,13 @@ product_names:
   - Google Meet
   - Google Workspace Add-ons API
   - Google Workspace Admin SDK
+  - Google Workspace Events API
   - Google Workspace Marketplace API
   - Identity Platform
   - Identity and Access Management
   - Identity-Aware Proxy
   - Infrastructure Manager
   - Integration Connectors
-  - IoT Core
   - Issuer switch
   - Keep API
   - Key Access Justifications
@@ -203,6 +211,7 @@ product_names:
   - Managed Service for Microsoft Active Directory
   - Maps SDK for Android
   - Maps SDK for iOS
+  - Maps Tile API
   - Media CDN
   - Media Translation
   - Memorystore for Memcached
@@ -213,12 +222,15 @@ product_names:
   - Migration Center
   - Navigation SDK for Android
   - Navigation SDK for iOS
+  - NetApp Volumes
   - Network Connectivity Center
   - Network Intelligence Center
   - Network Service Tiers
+  - Places API
   - Places SDK for Android
   - Places SDK for iOS
   - Policy Intelligence
+  - Pollen API
   - Pub/Sub
   - Pub/Sub Lite
   - Recommendations AI
@@ -233,16 +245,20 @@ product_names:
   - Security Command Center
   - Service Catalog
   - Service Directory
+  - Service Extensions
   - Service Health
   - Service Infrastructure
   - Service Usage
+  - Sheets API
   - Slides API
   - Software Delivery Shield
+  - Solar API
   - Sovereign Controls by Partners
   - Speech-to-Text
   - Storage Transfer Service
   - StratoZone
   - T-Systems Sovereign Cloud
+  - Tasks API
   - Telecom Subscriber Insights
   - Tensorflow Enterprise
   - Terraform on Google Cloud
@@ -257,9 +273,15 @@ product_names:
   - VPC Service Controls
   - Vault API
   - Vertex AI
+  - Vertex AI Search and Conversation
   - Vertex AI Vision
   - Vertex AI Workbench
   - Video Intelligence API
+  - Video Stitcher API
+  - Virtual Private Cloud
+  - Web Risk
+  - Workflows
+  - reCAPTCHA Enterprise
   - Video Stitcher API
   - Virtual Private Cloud
   - Web Risk

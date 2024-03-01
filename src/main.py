@@ -9,8 +9,6 @@ from httplib2 import Http
 from markdown import markdown
 from google.cloud import bigquery
 
-# Retrieve the GCP_PROJECT from the reserved environment variables.
-# more: https://cloud.google.com/functions/docs/configuring/env-var#python_37_and_go_111
 GCP_PROJECT = os.environ['GCP_PROJECT']
 
 def send_new_release_notes(request) -> tuple:

@@ -25,7 +25,8 @@ gcloud functions deploy google-cloud-release-notes-function \
     --project=${project_id} \
     --region=us-central1 \
     --trigger-http \
-    --runtime=python37 \
+    --runtime=python311 \
+    --set-env-vars GCP_PROJECT=${project_id} \
     --source=./src \
     --entry-point=send_new_release_notes
 

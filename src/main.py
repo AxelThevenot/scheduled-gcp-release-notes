@@ -117,7 +117,7 @@ def _send_card_to_webhook(
         return None
 
     # Complete the card and add its footer.
-    footer_text = '👉 <a href="https://cloud.google.com/release-notes">GCP Official Release Note</a>'
+    footer_text = '<a href="https://cloud.google.com/release-notes">GCP Official Release Note</a>'
     footer_section = {
         'header': 'To go Further',
         'widgets': [{ 'textParagraph': {'text': footer_text}}],

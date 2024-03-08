@@ -22,13 +22,27 @@ bq --project_id=${project_id} mk \
 
 # Create Cloud Function.
 gcloud functions deploy google-cloud-release-notes-function \
+    --gen2 \
     --project=${project_id} \
     --region=us-central1 \
     --trigger-http \
-    --runtime=python311 \
+    --runtime=python312 \
     --set-env-vars GCP_PROJECT=${project_id} \
     --source=./src \
     --entry-point=send_new_release_notes
+
+# Create the SA
+gcloud iam service-accounts create release-note-scheduler \
+    --project=${project_id} \
+    --display-name "Release Note GCP Scheduler"
+
+gcloud projects add-iam-policy-binding ${project_id} \
+    --member=serviceAccount:release-note-scheduler@${project_id}.iam.gserviceaccount.com \
+    --role=roles/cloudfunctions.invoker
+
+gcloud projects add-iam-policy-binding ${project_id} \
+    --member=serviceAccount:release-note-scheduler@${project_id}.iam.gserviceaccount.com \
+    --role=roles/run.invoker
 
 # Create the Cloud Scheduler trigger.
 gcloud scheduler jobs create http google-cloud-release-notes-schedule \
@@ -36,7 +50,11 @@ gcloud scheduler jobs create http google-cloud-release-notes-schedule \
     --location=us-central1 \
     --schedule="${schedule}" \
     --uri=https://us-central1-${project_id}.cloudfunctions.net/google-cloud-release-notes-function \
+    --oidc-service-account-email=release-note-scheduler@${project_id}.iam.gserviceaccount.com \
+    --oidc-token-audience=https://us-central1-${project_id}.cloudfunctions.net/google-cloud-release-notes-function \
     --http-method=POST \
+    --headers="Content-Type=application/json" \
+    --message-body="{}" \
     --time-zone=${time_zone}
 
 

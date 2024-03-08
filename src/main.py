@@ -114,7 +114,7 @@ def _send_card_to_webhook(
 
     # Do not send an empty card.
     if not releases_sections:
-        return None
+        return {}
 
     # Complete the card and add its footer.
     footer_text = '<a href="https://cloud.google.com/release-notes">GCP Official Release Note</a>'

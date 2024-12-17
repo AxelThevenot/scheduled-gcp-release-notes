@@ -20,7 +20,7 @@ This application operates in a straightforward manner:
 
 ### Create and configure your WebHook
 
-To ensure its functionality, you'll first need an existing Google Space. 
+To ensure its functionality, you'll first need an existing Google Space.
 If you wish to create a new Google Space, follow these steps:
 - Go to `Google Chat`: https://mail.google.com/chat/
 - Click on the `➕` button located next to `Space`, then select `Create a Space`.
@@ -37,7 +37,7 @@ Once you've completed these steps:
 
 To get started, clone the repository onto your local machine using either `HTTPS` or `SSH` mode:
 
-Using `HTTPS`: 
+Using `HTTPS`:
 
 ```sh
 git clone https://github.com/AxelThevenot/scheduled-gcp-release-notes.git
@@ -106,32 +106,19 @@ By following these steps, you can effectively test the function and ensure its p
 To repopulate the configuration you can check for yourself the existing product names on BigQuery.
 
 ```sql
-WITH 
-  distinct_procuct_name AS (
-    SELECT DISTINCT
-      product_name
-    FROM `bigquery-public-data.google_cloud_release_notes.release_notes`
-    ORDER BY
-      product_name
-  )
-SELECT 
-  STRING_AGG(product_name, '\n  - ') AS `product_names`,
-FROM distinct_procuct_name
+FROM `bigquery-public-data.google_cloud_release_notes.release_notes`
+|>  SELECT DISTINCT product_name
+|>  ORDER BY product_name
+|>  AGGREGATE STRING_AGG(product_name, '\n  - ')
 ```
 
 The same for the release note types.
 
 ```sql
-WITH 
-  distinct_release_note_type AS (
-    SELECT DISTINCT
-      release_note_type,
-      COUNT(1) OVER(PARTITION BY release_note_type) AS `release_note_type__count`, 
-    FROM `bigquery-public-data.google_cloud_release_notes.release_notes`
-    ORDER BY
-      release_note_type__count DESC
-  )
-SELECT 
-  STRING_AGG(release_note_type, '\n  - ') AS `release_note_types`,
-FROM distinct_release_note_type
+FROM `bigquery-public-data.google_cloud_release_notes.release_notes`
+|>  AGGREGATE
+        COUNT(1) AS total DESC,
+    GROUP BY
+        release_note_type
+|>  AGGREGATE STRING_AGG(release_note_type, '\n  - ')
 ```

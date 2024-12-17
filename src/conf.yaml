@@ -19,22 +19,18 @@ product_names:
   - API Keys API
   - Access Approval
   - Access Context Manager
+  - Access Transparency
   - Address Validation API
   - Advisory Notifications
   - Aerial View API
   - Agent Assist
   - Air Quality API
   - AlloyDB
-  - Anthos
   - Anthos Attached Clusters
   - Anthos Config Management
-  - Anthos Service Mesh
-  - Anthos VM Runtime
   - Anthos clusters on AWS
   - Anthos clusters on AWS (previous generation)
   - Anthos clusters on Azure
-  - Anthos clusters on VMware
-  - Anthos clusters on bare metal
   - Anti Money Laundering AI
   - Apigee API hub
   - Apigee Adapter for Envoy
@@ -44,6 +40,7 @@ product_names:
   - Apigee Integrated Portal
   - Apigee Integration
   - Apigee Monetization
+  - Apigee Registry
   - Apigee UI
   - Apigee X
   - Apigee hybrid
@@ -69,19 +66,16 @@ product_names:
   - Artifact Registry
   - Assured Open Source Software
   - Assured Workloads
-  - AutoML Natural Language
-  - AutoML Tables
+  - Audit Manager
   - AutoML Translation
-  - AutoML Video Intelligence Classification
-  - AutoML Video Intelligence Object Tracking
-  - AutoML Vision Image Classification (ICN)
-  - AutoML Vision Object Detection
   - Backup and DR
   - Backup for GKE
   - Bare Metal Solution
   - Batch
   - BeyondCorp Enterprise
   - BigQuery
+  - BigQuery Engine for Apache Flink
+  - Bigtable
   - Binary Authorization
   - Blockchain Analytics
   - Blockchain Node Engine
@@ -93,11 +87,7 @@ product_names:
   - Certificate Manager
   - Channel Services
   - Chat API
-  - Chronicle
-  - Chronicle SOAR
-  - Chronicle Security Operations
   - Cloud Asset Inventory
-  - Cloud Bigtable
   - Cloud Billing
   - Cloud Build
   - Cloud CDN
@@ -105,14 +95,11 @@ product_names:
   - Cloud Console
   - Cloud DNS
   - Cloud Data Fusion
-  - Cloud Data Loss Prevention
   - Cloud Database Migration Service
   - Cloud Debugger
   - Cloud Deployment Manager
   - Cloud Domains
   - Cloud Endpoints
-  - Cloud Firewall
-  - Cloud Functions
   - Cloud Healthcare API
   - Cloud IDS
   - Cloud Identity
@@ -123,20 +110,22 @@ product_names:
   - Cloud Logging
   - Cloud Monitoring
   - Cloud NAT
+  - Cloud NGFW
   - Cloud Natural Language API
   - Cloud Optimization AI
   - Cloud Profiler
+  - Cloud Quotas
   - Cloud Router
   - Cloud Run
-  - Cloud Run for Anthos
+  - Cloud Run functions
   - Cloud SQL for MySQL
   - Cloud SQL for PostgreSQL
   - Cloud SQL for SQL Server
   - Cloud Scheduler
   - Cloud Search
+  - Cloud Service Mesh
   - Cloud Shell
   - Cloud Source Repositories
-  - Cloud Spanner
   - Cloud Storage
   - Cloud TPU
   - Cloud Talent Solution Job Search
@@ -147,16 +136,19 @@ product_names:
   - Cloud Vision
   - Cloud Vision API Product Search
   - Cloud Workstations
+  - Cloud-based maps styling
   - Colab Enterprise
   - Compute Engine
+  - Confidential Space
   - Confidential VM
   - Config Connector
   - Config Controller
   - Contact Center AI Insights
-  - Contact Center AI Platform
   - Container Optimized OS
   - Container Registry
+  - Cortex
   - Data Catalog
+  - Database Center
   - Dataflow
   - Dataform
   - Dataplex
@@ -167,13 +159,17 @@ product_names:
   - Datastream
   - Deep Learning Containers
   - Deep Learning VM Images
+  - Developer Connect
   - Dialogflow
   - Discovery Engine API
   - Docs API
   - Document AI
   - Document AI Warehouse
   - Drive API
-  - Duet AI
+  - Earth Engine Code Editor
+  - Earth Engine JavaScript Client Library
+  - Earth Engine Python Client Library
+  - Earth Engine Server
   - Endpoint Verification
   - Enterprise Knowledge Graph
   - Error Reporting
@@ -181,16 +177,32 @@ product_names:
   - Filestore
   - Firestore
   - Forms API
+  - GKE Enterprise
+  - Games Dev Center
+  - Gemini
+  - Gemini Code Assist
+  - Generative AI on Vertex AI
+  - Geocoding API
+  - GitLab on Google Cloud
   - Gmail API
+  - Google Ad Manager API
   - Google Cloud Architecture Center
   - Google Cloud Armor
+  - Google Cloud Contact Center as a Service
   - Google Cloud Deploy
+  - Google Cloud Managed Service for Apache Kafka
   - Google Cloud Marketplace
   - Google Cloud Marketplace Partners
   - Google Cloud VMware Engine
+  - Google Distributed Cloud (software only) for VMware
+  - Google Distributed Cloud (software only) for bare metal
   - Google Distributed Cloud Edge
+  - Google Distributed Cloud connected
   - Google Kubernetes Engine
   - Google Meet
+  - Google SecOps
+  - Google SecOps SIEM
+  - Google SecOps SOAR
   - Google Workspace Add-ons API
   - Google Workspace Admin SDK
   - Google Workspace Events API
@@ -198,25 +210,28 @@ product_names:
   - Identity Platform
   - Identity and Access Management
   - Identity-Aware Proxy
+  - Immersive Stream for XR
   - Infrastructure Manager
   - Integration Connectors
   - Issuer switch
   - Keep API
   - Key Access Justifications
   - Kf
+  - Knative serving
   - Live Stream API
   - Looker
   - Looker Studio
+  - Mainframe Assessment Tool
+  - Mainframe Connector
   - Managed Anthos Service Mesh
+  - Managed Cloud Service Mesh
   - Managed Service for Microsoft Active Directory
   - Maps SDK for Android
   - Maps SDK for iOS
   - Maps Tile API
   - Media CDN
-  - Media Translation
   - Memorystore for Memcached
   - Memorystore for Redis
-  - Migrate for Compute Engine
   - Migrate to Containers
   - Migrate to Virtual Machines
   - Migration Center
@@ -225,24 +240,32 @@ product_names:
   - NetApp Volumes
   - Network Connectivity Center
   - Network Intelligence Center
+  - Network Security Integration
   - Network Service Tiers
+  - Oracle Database@Google Cloud
+  - Organization Policy
+  - Parallelstore
   - Places API
+  - Places Insights API
   - Places SDK for Android
   - Places SDK for iOS
+  - Places Swift SDK for iOS (Preview)
+  - Policy Controller
   - Policy Intelligence
   - Pollen API
   - Pub/Sub
   - Pub/Sub Lite
-  - Recommendations AI
   - Recommender
   - Resource Manager
   - Retail API
   - Risk Manager
+  - Route Optimization API
   - Routes API
   - SAP on Google Cloud
   - Secret Manager
   - Secure Web Proxy
   - Security Command Center
+  - Sensitive Data Protection
   - Service Catalog
   - Service Directory
   - Service Extensions
@@ -251,9 +274,9 @@ product_names:
   - Service Usage
   - Sheets API
   - Slides API
-  - Software Delivery Shield
   - Solar API
   - Sovereign Controls by Partners
+  - Spanner
   - Speech-to-Text
   - Storage Transfer Service
   - StratoZone
@@ -266,14 +289,15 @@ product_names:
   - Tools for Eclipse
   - Tools for PowerShell
   - Tools for Visual Studio
-  - Traffic Director
   - Transcoder API
   - Transfer Appliance
   - Translation Hub
+  - Unified Maintenance
+  - VM Runtime on Google Distributed Cloud
   - VPC Service Controls
   - Vault API
   - Vertex AI
-  - Vertex AI Search and Conversation
+  - Vertex AI Agent Builder
   - Vertex AI Vision
   - Vertex AI Workbench
   - Video Intelligence API
@@ -281,4 +305,4 @@ product_names:
   - Virtual Private Cloud
   - Web Risk
   - Workflows
-  - reCAPTCHA Enterprise
+  - reCAPTCHA
